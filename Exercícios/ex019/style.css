@@ -1,0 +1,29 @@
+@charset "UTF-8" 
+
+body {
+    background-color:#ebbbc6 ;
+    color:#AA82E0 ;
+   }
+   h1#principal {
+    font: bold 2em times;
+    color:#fff ;
+    background-color: #5E5EE0;
+    text-align: center;
+   }
+   h1 {
+   background-color:#B022E0 ;
+    color: #fff;
+   }
+   .basico {
+    color: blue;
+   }
+   .irtermed {
+    color: brown;
+   }
+   .avancado {
+    color:crimson;
+   }
+   html {
+    background-color:#ebbbc6 ;
+    color:#AA82E0 ;
+   }

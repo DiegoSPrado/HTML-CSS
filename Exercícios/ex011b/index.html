@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head><h1>Escala das Imagens</h1>
+<body><p>Texto genérico só para encher linguiça xd</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/tyler-300.webp" type="image/webp">
+        <source media="(max-width:1050px)" srcset="imagens/tyler.webp" type="image/webp"><img src="imagens/tyler-1000.webp" alt="Imagem 1000px">
+    </picture>
+    <h1>Colocando Áudio</h1>
+    <p>Para se colocar audios, precisa colocar a tag audio e dentro dela por source scr 
+        <audio preload="none" controls>
+            <source src="midia/wish-you-never-left.mp3" type="audio/mpeg">
+        </audio>
+    </p> 
+    <p>Mas caso seu navegador não carregue o áudio, <a href="midia/wish-you-never-left.mp3" download="wish-you-never-left.mp3" target="_blank">clique aqui</a>.</p>
+</body>
+</html>
