@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Aluno</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nnome" id="inome">
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="nmedia" id="imedia" step="0.2" size="3">
+        </p>
+        <p>
+            <label for="imes">Data</label>
+            <input type="month" name="nmes" id="imes">
+        </p>
+        <p>
+            <label for="idia">Dia da Prova</label>
+            <input type="date" name="ndia" id="idia">
+        </p>
+        <p>
+            <label for="ihora">Hora da Prova</label>
+            <input type="time" name="nhora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
