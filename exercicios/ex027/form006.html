@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Forms File, Color e Range</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            Cor:<input type="color" name="ncor" id="icol"><label for="icol"></label>
+        </p>
+            <p>
+                Nível de Sastifação:<input type="range" name="nsast" id="isast" min="1" max="5" value="5"><label for="nsast"></label>
+        </p>
+        <p>
+            Arquivo de Imagem:<input type="file" name="nfot" id="ifot"><label for="ifot"></label>
+        </p> 
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
