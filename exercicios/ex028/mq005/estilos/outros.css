@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+menu {
+    padding: 0px;
+    display: block;
+}
+
+
+
+menu > ul > li {
+    display: inline-block;
+    border: none;
+}
+
+main {
+    width: 900px;
+}
+
+span#burguer {
+    display: none;
+}
