@@ -1,23 +1,17 @@
 @charset "UTF-8";
 
- body {
-    background-image: url(../imagens/back-tablet.jpg);
-}
 
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    
+    
+    
+    img#tablet {display: block;}      
+    img#phone { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+    img#print { display: none;}
+        
+    
 
-
-img#tablet {
-    display: block;
-}
-img#phone {
-    display: none;
-}
-img#pc {
-    display: none;
-}
-img#tv {
-    display: none;
-}
-img#print {
-    display: none;
-}

@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(../imagens/back-print.jpg);
+    background-image: url(../imagens/back-print.jpg); /*desnecessario*/
+
+    
 }
 
 main {
