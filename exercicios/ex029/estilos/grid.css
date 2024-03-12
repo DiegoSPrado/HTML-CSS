@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+#green {
+    background-color: green;
+    
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
