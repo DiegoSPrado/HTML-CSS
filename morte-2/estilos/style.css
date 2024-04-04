@@ -18,29 +18,22 @@ p {
 }
 
 body, html {
-    width: 100vw;
+    
     height: 100vh;
     background-color: rosybrown;
     font-family: 'Inter', system-ui;
 }
 
 main {
-    max-width: 580px;
-    width: 90%;
-    margin: 32px auto;
-    
     display: grid;
     gap: 24px;
 }
 
 
-main section {
-    animation: fromBottom .7s backwards;
-}
 
 header {
     display: flex;
-    
+   
     padding: 20px 15px;
     background-color: black;
     color: white;
@@ -56,7 +49,7 @@ header a {
 
 section{
     display: block;
-    width: 50vw;
+    width: 80vw;
     height: 50vh;
     margin: auto;
     margin-top: 50px;
@@ -68,7 +61,7 @@ section{
 section div {
    text-align: left;
    padding: 30px;
-   padding-bottom: ;
+  
    line-height: 1.6em; 
 }
 
@@ -87,11 +80,15 @@ img.imgcnt {
     border-radius: 8px;
 }
 
-section li {
-    
-}
-
 section#last {
     height: 300px;
     margin-bottom: 90px;
+}
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
 }
